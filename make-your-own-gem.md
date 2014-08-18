@@ -399,6 +399,8 @@ a basic test file for hola:
       end
     end
 
+> For recent Ruby versions, replace `require 'test/unit'` with `require 'minitest/autorun'`, and replace `Test::Unit::TestCase` with `MiniTest::Unit::TestCase`
+
 Finally, to run the tests:
 
     % rake test
